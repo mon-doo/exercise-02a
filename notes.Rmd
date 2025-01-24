@@ -1,0 +1,24 @@
+---
+title: "notes"
+author: "Monica"
+date: "2025-01-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Notes Markdown
+
+Here are some of my notes from today's class that were taken in R:
+
+```{r eval=FALSE}
+gs <- d$MeanGroupSize #now gs is a vector
+class(gs)
+head(gs)  #first 6 tiems of vector
+tail(gs)
+glimpse(gs)
+str(gs)
+#data frame is vectors of same length squished together essentially
+```
